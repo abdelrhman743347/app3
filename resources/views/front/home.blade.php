@@ -5,7 +5,7 @@
     <div class="container">
     <h1>All post
     </h1>
-        <span>{{$posts->count()}}</span>
+        <span>{{$posts->total()}}</span>
         <hr>
         <div class="row mb-3">
             @foreach($posts as $post)
