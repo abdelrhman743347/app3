@@ -4,7 +4,7 @@
     <br>
     <div class="container">
         <h1>Categroy: {{$category->name}} </h1>
-        <span>{{$posts->count()}}</span>
+        <span>{{$posts->total()}}</span>
         <hr>
         <div class="row mb-3">
             @foreach($posts as $post)
